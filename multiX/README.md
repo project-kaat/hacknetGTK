@@ -43,6 +43,7 @@ The protocol that binds the augmented shell to GUI process. It uses unix sockets
 
 This component of HacknetGTK is not completely finished. It needs improvements.
 **A list of potential improvements and limitations**:
+
     * Make images in GUI scale, instead of opening in full size
     * Maybe, include functionality to open audio and video players in a subwindow
     * Files, opened in GUI will open in the terminal, but not the other way around
