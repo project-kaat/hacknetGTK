@@ -273,21 +273,13 @@ bool initWindow() {
         GtkWidget * ps;
         GtkWidget * textHBox;
 
-        if (SHOW_TEXT) {
-            usedram = gtk_alignment_new(0, 0, 0, 0);
-            ps = gtk_alignment_new(1, 0, 0, 0);
+        ramLabel = gtk_label_new(NULL);
+        psLabel = gtk_label_new(NULL);
 
-            ramLabel = gtk_label_new(NULL);
-            psLabel = gtk_label_new(NULL);
+        textHBox = gtk_hbox_new(FALSE, 0);
 
-            textHBox = gtk_hbox_new(TRUE, 0);
-
-            gtk_container_add(GTK_CONTAINER(usedram), ramLabel);
-            gtk_container_add(GTK_CONTAINER(ps), psLabel);
-
-            gtk_container_add(GTK_CONTAINER(textHBox), usedram);
-            gtk_container_add(GTK_CONTAINER(textHBox), ps);
-        }
+        gtk_box_pack_start(GTK_BOX(textHBox), GTK_WIDGET(ramLabel), FALSE, FALSE, 0);
+        gtk_box_pack_end(GTK_BOX(textHBox), GTK_WIDGET(psLabel), FALSE, FALSE, 0);
 
         gtk_container_add(GTK_CONTAINER(gtkWin), textHBox);
 

@@ -2,7 +2,8 @@
 
 This is a remake of "DISPLAY" and "TERMINAL" windows from Hacknet. There are three parts to this project.
 Different components have more detailed descriptions in their own directories.
-Run the whole thing with `./run.sh`.
+
+To run, configure some variables in `./display/multixConfig.py` and run the whole thing with `./run.sh`.
 
 ## Part 1: The GUI
 
