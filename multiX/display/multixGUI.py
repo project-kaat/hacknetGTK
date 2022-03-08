@@ -205,6 +205,7 @@ class displayWindow(Gtk.Window):
 
         elif self.mode == enums.DISPLAY_MODE_IMAGE:
 
+            self.headerLabel.set_text(self.activePath)
             im = Gtk.Image()
             self.vbox.add(im)
             im.set_from_file(self.activePath)
