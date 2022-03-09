@@ -41,7 +41,7 @@ class settings:
 
 class colors:
 
-    COLOR_WINDOW_BACKGROUND     = (0.0, 0.0, 0.0, 0.8)
+    COLOR_WINDOW_BACKGROUND     = (0.0, 0.0, 0.0, 0.7)
 
     COLOR_BACKGROUND            = (0.47, 0.47, 0.47, 1)
 

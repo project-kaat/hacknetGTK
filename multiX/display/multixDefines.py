@@ -61,5 +61,7 @@ class enums:
     ]
 
     TEXT_MAGIC_VALUES = [
-            "ASCII text",
+            "*ASCII text",
+            "*Unicode text*",
+            "*XML data*",
     ]
