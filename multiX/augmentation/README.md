@@ -1,7 +1,7 @@
 # multiX shell augmentation library
 
 This is the implementation of the "TERMINAL" window from hacknet for HacknetGTK project.
-I tried many different ways to augment the shell, while keeping it useable. This is what I came up with.
+I tried many different ways to augment the shell, while keeping it usable. This is what I came up with.
 
 ## Hacknet vs this project functionality comparison
 
