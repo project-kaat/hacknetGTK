@@ -1,5 +1,7 @@
 # HacknetGTK is a project that brings some of the Hacknet GUI elements to linux-based systems using GTK
 
+![screenshot of desktop](./screenshots/unixporn.png)
+
 ### Projects that are already implemeneted or planned:
     * traceAnim - the famous trace animation
     * ramVis - ram usage visualization app
